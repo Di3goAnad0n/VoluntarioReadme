@@ -1,0 +1,11 @@
+# Cambia vocales
+def codificador():
+    texto=input("Escribe lo que quieras: ")
+    for cont in range(0,len(texto)):
+      if(texto[cont]=='a' or texto[cont]=='e'or texto[cont]=='i' or texto[cont]=='o' or texto[cont]=='u'):
+        print('u')
+      else:
+        print(texto[cont])
+    print(texto)
+           
+codificador()
